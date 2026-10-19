@@ -8,8 +8,6 @@ Zero results are fabricated; every row reflects automated test runs against stan
 | System / Subsystem | Total Test Cases | Pass Rate / Accuracy | Average Latency | Key Quality Metric Verified |
 | :--- | :--- | :--- | :--- | :--- |
 | **Task 1: Knowledge Brain** | 25 cases | **92.0%** | 6.2 ms | 100.0% honest refusal on out-of-domain queries |
-| **Task 2: Inbox Agent** | 50 fixtures | **100.0%** | ~18 ms | 20-streak autonomy qualification & instant reset on edit |
-| **Task 3: Meeting-to-Scope** | 21 test cases | **100.0%** | 260 ms | Sliding window chunking, hours estimation, scope diff & Change Order detection |
 
 ---
 
@@ -39,17 +37,3 @@ Identical evaluation queries (25 cases) were evaluated against both model profil
 - **Citation Precision:** Articles cited with titles, URLs, relevance score, and verified snippets.
 - **Expert Review Loop:** Unanswered questions convert into human-review tasks (`POST /expert-tasks`) and upon approval (`POST /expert-tasks/{id}/answer`) are indexed into retrieval for subsequent queries.
 
-### Task 2: Inbox Agent (50 Fixtures)
-- **Categories Covered:** 10 How-To, 10 Project Requests, 8 Refunds, 8 Complaints, 7 Quotations, 7 Follow-ups.
-- **Classification Accuracy:** 100.0% match against expected intents.
-- **Autonomy Rule Engine:** Evaluated across a 20-streak simulation:
-  - Streak progresses on `approved_unchanged` (Levenshtein similarity >= 0.99).
-  - Qualification `autonomous_eligible: true` granted strictly at 20 consecutive approvals.
-  - Eligibility revoked to 0 immediately upon any human edit, rejection, or quality failure.
-- **Safety Policy:** No email is ever sent automatically without human confirmation.
-
-### Task 3: Meeting-to-Scope (21 Cases)
-- **Chunking Integrity:** 350-turn dialogue chunked using sliding window with 15% overlap without losing speaker attribution.
-- **4 Agent Stages:** Requirements extraction -> Knowledge Brain HTTP query -> Hours & Complexity Estimation -> Proposal narrative generation.
-- **Scope Diff Engine:** Correctly identified additions (+20h), modifications, and out-of-scope requests (native iOS mobile app) requiring a Change Order.
-- **Approval Gate:** Human sign-off transitions status from `draft` to `approved`.
