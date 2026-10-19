@@ -1,30 +1,24 @@
 @echo off
 echo =================================================================
-echo AI TECH CONSULTANT: 12-HOUR CAPSTONE MVP MASTER DEMO
+echo TASK 1: KNOWLEDGE BRAIN — FASTAPI / RAG MASTER DEMO
 echo =================================================================
 
 cd /d "%~dp0\.."
 
 echo.
-echo [STEP 1/4] Starting Task 1 Knowledge Brain in background...
+echo [STEP 1/3] Starting Knowledge Brain API server in background on port 8001...
 start /B .venv\Scripts\python.exe -m uvicorn task1_knowledge_brain.app.main:app --host 127.0.0.1 --port 8001
 timeout /t 3 /nobreak >nul
 
 echo.
-echo [STEP 2/4] Running Task 2 TypeScript Inbox Agent...
-cd task2_inbox_agent
-call npm test
-cd ..
+echo [STEP 2/3] Running Task 1 Unit and Integration Pytest Suite...
+.venv\Scripts\python.exe -m pytest task1_knowledge_brain/tests/
 
 echo.
-echo [STEP 3/4] Running Task 3 Meeting-to-Scope CLI...
-.venv\Scripts\python.exe task3_meeting_to_scope/app/cli.py generate-scope --file evals/fixtures/task3_transcripts/initial_discovery.txt --client "Apex Legal Directory Corp" --title "Enterprise Legal Portal"
-
-echo.
-echo [STEP 4/4] Running Master Evaluations Suite across Tasks 1, 2, 3...
+echo [STEP 3/3] Running Task 1 Evaluations & Model Comparison...
 .venv\Scripts\python.exe evals/run_all_evals.py
 
 echo.
 echo =================================================================
-echo MASTER INTEGRATION DEMO COMPLETE!
+echo TASK 1 DEMO & VERIFICATION COMPLETE!
 echo =================================================================

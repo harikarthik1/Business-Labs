@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-18T15:58:16Z",
+  "timestamp": "2026-10-19T04:28:52Z",
   "test_dataset": "evals/fixtures/task1_queries.json (25 queries)",
   "models": {
     "claude-3-5-sonnet-20241022": {
       "accuracy": "92.0%",
-      "factual_precision": "86.67%",
-      "insufficient_detection": "100.0%",
-      "avg_latency_ms": 6.2,
+      "factual_precision": "93.33%",
+      "insufficient_detection": "90.0%",
+      "avg_latency_ms": 7.2,
       "cost_per_1k_usd": 0.0
     },
     "claude-3-5-haiku-20241022": {
       "accuracy": "92.0%",
-      "factual_precision": "86.67%",
-      "insufficient_detection": "100.0%",
-      "avg_latency_ms": 6.2,
+      "factual_precision": "93.33%",
+      "insufficient_detection": "90.0%",
+      "avg_latency_ms": 7.2,
       "cost_per_1k_usd": 0.0
     }
   }

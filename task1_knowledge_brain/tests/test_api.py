@@ -5,11 +5,15 @@ from task1_knowledge_brain.app.main import app
 from task1_knowledge_brain.app.storage import db
 from task1_knowledge_brain.app.retrieval import retriever
 
+from pathlib import Path
+TEST_DB_PATH = Path(__file__).resolve().parent.parent / "data" / "test_knowledge_brain.db"
+db.db_path = str(TEST_DB_PATH)
+
 client = TestClient(app)
 
 @pytest.fixture(autouse=True)
 def setup_test_data():
-    # Insert known test articles into SQLite db with a clean slate
+    # Insert known test articles into isolated test SQLite db
     db.init_db()
     with db.get_connection() as conn:
         conn.execute("DELETE FROM expert_tasks;")

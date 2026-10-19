@@ -19,7 +19,7 @@ STOPWORDS = {
     "wasn't", "we", "were", "weren't", "what", "when", "where", "which", "while", "who", "whom",
     "why", "with", "won't", "would", "wouldn't", "you", "your", "yours", "yourself", "yourselves",
     # Domain generic terms that occur in nearly every BD document title/body
-    "brilliant", "directories", "directory"
+    "brilliant", "directories", "directory", "bd", "website", "site"
 }
 
 def tokenize(text: str) -> List[str]:
