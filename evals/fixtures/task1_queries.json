@@ -1,0 +1,177 @@
+[
+  {
+    "id": "t1_q01",
+    "query": "How do I import categories via CSV file in Brilliant Directories?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["category", "import", "csv"]
+  },
+  {
+    "id": "t1_q02",
+    "query": "Can I send a mass email campaign using Brilliant Directories?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["mass email", "newsletter", "email"]
+  },
+  {
+    "id": "t1_q03",
+    "query": "How to set up email forwarders in Brilliant Directories?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["forwarder", "email"]
+  },
+  {
+    "id": "t1_q04",
+    "query": "Where do I configure social media links in General Settings?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["social", "settings"]
+  },
+  {
+    "id": "t1_q05",
+    "query": "How to configure custom email accounts for domain?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["email", "account"]
+  },
+  {
+    "id": "t1_q06",
+    "query": "How do I customize member search results layout?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["search", "results", "layout"]
+  },
+  {
+    "id": "t1_q07",
+    "query": "How to configure custom member form fields in Form Manager?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["form", "fields", "member"]
+  },
+  {
+    "id": "t1_q08",
+    "query": "How to setup webhooks in Brilliant Directories?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["webhook", "endpoint", "event"]
+  },
+  {
+    "id": "t1_q09",
+    "query": "How to connect Stripe payment gateway for member billing?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["stripe", "payment", "billing"]
+  },
+  {
+    "id": "t1_q10",
+    "query": "How do members claim their pre-loaded profile listings?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["claim", "listing", "profile"]
+  },
+  {
+    "id": "t1_q11",
+    "query": "How to edit automated welcome email notification templates?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["welcome", "email", "template"]
+  },
+  {
+    "id": "t1_q12",
+    "query": "How to configure Google Maps API key in General Settings?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["google maps", "api key", "settings"]
+  },
+  {
+    "id": "t1_q13",
+    "query": "How to restrict photo gallery uploads to Premium tier members?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["photo", "gallery", "tier"]
+  },
+  {
+    "id": "t1_q14",
+    "query": "Where do I find initial setup guide in Brilliant Directories?",
+    "expected_type": "factual",
+    "expected_insufficient": false,
+    "keywords": ["started", "setup", "guide"]
+  },
+  {
+    "id": "t1_q15",
+    "query": "How do I connect Brilliant Directories to custom COBOL mainframe?",
+    "expected_type": "expert_incorporated",
+    "expected_insufficient": false,
+    "keywords": ["cobol", "mainframe", "webhook"]
+  },
+  {
+    "id": "t1_q16",
+    "query": "What is the warp drive speed limit of Brilliant Directories?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q17",
+    "query": "How do I build an quantum teleportation gateway in BD?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q18",
+    "query": "What is the secret recipe for Kentucky Fried Chicken?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q19",
+    "query": "How to launch a SpaceX Falcon 9 rocket from BD admin?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q20",
+    "query": "Does Brilliant Directories support running Minecraft Bedrock servers?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q21",
+    "query": "Can I deploy Kubernetes clusters inside BD widgets?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q22",
+    "query": "How to compile Rust WebAssembly modules in WordPress?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q23",
+    "query": "What are the rules of underwater hockey in Brilliant Directories?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q24",
+    "query": "How to perform open heart surgery with BD Form Manager?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  },
+  {
+    "id": "t1_q25",
+    "query": "Can BD send telepathic thought waves to website visitors?",
+    "expected_type": "out_of_domain",
+    "expected_insufficient": true,
+    "keywords": []
+  }
+]

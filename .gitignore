@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+*.local
+
+# SQLite & data caches
+*.db
+*.sqlite3
+data/cache/
+data/crawled/
+data/eval_cache/
+
+# IDE & logs
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,9 @@
+Sarah Jenkins (Director of Ops): Hi Alex, we reviewed the initial Scope of Work draft and had an internal team sync.
+Alex Rivers (Solutions Architect): Great, Sarah. What feedback or adjustments did your team identify?
+Sarah Jenkins: Two main things. First, we need to add an automated Stripe webhook notification to alert our accounting desk whenever an attorney upgrades their plan.
+Alex Rivers: That is a new addition (+16h integration effort for the webhook listener and error logging).
+Sarah Jenkins: Second, we decided to drop the practice area categories import because our admin intern already entered all 450 by hand yesterday.
+Alex Rivers: Understood, we will remove that task (-4h).
+Sarah Jenkins: Lastly, our CEO asked if we can also build a native iOS mobile app and publish it to the Apple App Store as part of this sprint.
+Alex Rivers: A native iOS mobile app is explicitly out of scope for Brilliant Directories responsive web architecture and would require a separate mobile engineering contract and Change Order.
+Sarah Jenkins: That makes sense. Please send over the updated scope diff and Change Order so we can review the revised hours and finalize.
